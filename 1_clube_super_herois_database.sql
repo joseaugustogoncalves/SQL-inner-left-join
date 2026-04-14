@@ -105,3 +105,14 @@ INSERT INTO recompensas (id_missao, descricao, pontos) VALUES
 (3, 'skin lendaria de debugger',           60),
 (4, 'voucher de armazenamento na cloud',   80),
 (4, 'trofeu "rei do log"',                 40);
+
+
+INSERT INTO
+    equipas (nome, base_secreta)
+VALUES (
+        'Nasa delta force',
+        'Nasa sem recompensa base'
+    );
+
+INSERT INTO missoes (id_equipa, titulo, dificuldade, data_inicio) VALUES
+(3, 'Salvar a lua do Trump', 'Complicada',   '2026-04-15');
